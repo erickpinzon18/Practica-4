@@ -1,0 +1,85 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+}
+body {
+    background-color: aliceblue;
+}
+header {
+    background-color: teal;
+    display: flex;
+    height: 200px;
+    width: 1100px;
+}
+#logo {
+    background-color: darkseagreen;
+    color: dark;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu {
+    background-color: darkgreen;
+    color: white;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 1100px;
+    height: 810px;
+    display: flex;
+}
+aside {
+    width: 300px;
+    background-color: darkcyan;
+    justify-content: center;
+    align-items: center;
+}
+#Anuncio {
+    margin-top: 20px;
+    background-color: lightslategray;
+    height: 180px;
+    width: 100%;
+}
+article {
+    width: 800px;
+    background-color: antiquewhite;
+}
+#Recuadro {
+    margin: 15px;
+    height: 250px;
+    display: flex;
+    border: solid 1px #000;
+    background-color: darkorange;
+}
+#Foto {
+    border: solid 1px #000;
+    background-color: bisque;
+    width: 250px;
+    height: 250px;
+    }
+#Contenido {
+    display: block;
+    margin: 20px;
+    width: 520px;
+}
+#Titulo {
+    text-align: right;
+    margin: 0px 20px;
+    color: white;
+}
+footer {
+    width: 1100px;
+    height: 50px;
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    margin: 20px;
+}
